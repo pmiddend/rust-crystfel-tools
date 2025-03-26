@@ -16,8 +16,6 @@ fn main() {
     let stream_file = args.get(1).expect("please provide the stream file");
 
     if let Ok(lines) = read_lines(stream_file) {
-        println!("Reading from {stream_file}");
-
         let mut current_h5 = 0;
 	let mut current_sn = 0;
 	let mut histogram: HashMap<i32, i32> = HashMap::new();
