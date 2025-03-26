@@ -41,7 +41,7 @@ fn main() {
         }
 
 	for (id, count) in &histogram {
-	    println!("{id}: {count}");
+	    println!("{id} {count}");
 	}
     }
 }
