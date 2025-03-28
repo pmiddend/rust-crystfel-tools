@@ -1,4 +1,4 @@
-# main tool
+# Indexed frame distribution
 
 Will output statistics of indexed frames over time given a `.stream` file, binned by 1000 frames:
 
@@ -24,3 +24,5 @@ Resulting in something like this:
 ![](images/testimage.png)
 
 Where you can then see distribution of found indexed frames over time.
+
+There is a full example gnuplot file in this repository under `uc-plot.gnuplot` and the command-line to run it is in `generate-example-plot.sh`
